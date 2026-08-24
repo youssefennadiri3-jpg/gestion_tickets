@@ -1,0 +1,32 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database (قاعدة البيانات المحلية)
+*.sqlite3
+*.db
+
+# Media & Static Files (صور الملفات المرفوعة والملفات الثابتة)
+media/
+staticfiles/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Editors & OS files
+.vscode/
+.idea/
+.DS_Store
